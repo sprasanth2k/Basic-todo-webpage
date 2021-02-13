@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <header>TO DO LIST</header>
+
+    <div class="content">
+        <button id="plus" class="plus" onclick="addtask()">+</button>
+        <input type="text" id="inputtask" placeholder="ADD TASK" autocomplete="off" onkeypress="enter(event)">
+    </div>
+    <div class="totaltask">
+        Total tasks <br>
+        Remaining: 0
+    </div>
+    <div class="alltasks">
+    </div>
+
+    
+<script src="todo.js"></script>
+    
+</body>
+</html>

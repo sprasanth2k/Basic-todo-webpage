@@ -1,0 +1,98 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
+header{
+    color: rgba(0, 0, 0, 0.7);
+    text-shadow: 3px 3px 20px #fff,-2px 1px 30px #fff;
+    margin-top: 50px;
+    height:200px;
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+}
+input{
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 40px;
+    border-radius:0 7px 7px 0;
+}
+.plus{
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 35px;
+    height: 41px;
+    margin-right: -4px;
+    background:rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 7px 0 0 7px;
+    border-right: 1px solid white;
+}
+
+.plus:hover{
+    transition-duration: 0.5s;
+    background: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.5);
+}
+.plus:active { 
+    transform: scale(0.7); 
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+} 
+::placeholder{
+    font-weight: 300;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.content{
+    height:100px;
+}
+.alltasks{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.outerdiv{
+    display: flex;
+    margin-top: 10px;
+}
+.task{
+    margin-left: -50px;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    background: rgba(255, 255, 255, 0.3);
+    min-width: 0;
+    width: 350px;
+    height:60px;
+    border-radius: 10px;
+}
+span{
+    background: transparent;
+    cursor: pointer;
+    color: black;
+    font-size: 40px;
+    margin-left: 20px;
+    text-shadow: 3px 3px 20px #fff,-2px 1px 30px #fff;
+}
+span:active{ 
+    transform: scale(0.7); 
+    height: 30px;
+    color: rgba(255, 255, 255, 0.3);
+} 
+.totaltask{
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 3px 3px 20px #33ccff,-2px 1px 30px #33ccff;
+    margin-bottom: 40px;
+}
